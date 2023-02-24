@@ -12,8 +12,42 @@ body{
 	text-align:center;
 }
 .first{
-	height:80px;
-	width:80px;
+	padding-top:15px;
+	padding-left:15px;
+	height:200px;
+	width:300px;
 	background-color:white;
+	border-radius: 20px;
+}
+.second{
+	padding-top:15px;
+	padding-left:15px;
+	width:100%;
+	height:250px;
+	background-color:white;
+	border-radius: 20px;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	flex-flow:column-wrap;
+}
+.third{
+	padding-top:15px;
+	padding-left:15px;
+	width:100%;
+	background-color:white;
+	border-radius: 20px;
+	text-align:center; 
 	
+}
+.av{
+	display:flex;
+	flex-flow:column;
+	justify-content:center;
+	gap:8px;
+}
+.container{
+	display:flex;
+	justify-content:space-evenly;
+	gap:5px;
 }
